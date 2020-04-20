@@ -1,0 +1,25 @@
+.language {
+  position: absolute;
+  display: inline-block;
+  top: 16px;
+  left: 208px;
+  height: 32px;
+  background-color: var(--bg-color);
+  border-radius: 32px;
+  border: 0;
+  cursor: pointer;
+
+  @media only print {
+    display: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &-icon {
+    height: 16px;
+    width: 24px;
+    margin: 8px 16px;
+  }
+}

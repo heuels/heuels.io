@@ -1,0 +1,33 @@
+@import 'reset.module.css';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-family: 'Open Sans', sans-serif;
+
+  @media only screen {
+    --color: #383b40;
+    --accent-color: #f7ca45;
+    --background-color: #ffffff;
+    --font-size: 16px;
+
+    &[data-color-scheme='dark'] {
+      --font-size: 16px;
+      --color: #fbfbfb;
+      --accent-color: #3881f1; /* #f7ca45; */
+      --background-color: #2b2e39;
+    }
+  }
+
+  @media only print {
+    --font-size: 14px;
+    --color: #383b40;
+    --accent-color: #f7ca45;
+    --background-color: #ffffff;
+  }
+
+  background-color: var(--background-color);
+  color: var(--color);
+  font-size: var(--font-size);
+  font-family: var(--font-family);
+}

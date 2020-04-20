@@ -1,0 +1,11 @@
+.timeline {
+  break-inside: avoid;
+
+  & + & {
+    margin-top: 8rem;
+
+    @media only print {
+      margin-top: 1.5rem;
+    }
+  }
+}

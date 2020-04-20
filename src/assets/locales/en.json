@@ -1,0 +1,141 @@
+{
+  "intro": "Hi, I'm",
+  "title": "Egor Zaitsev",
+  "subtitle": "Fullstack JavaScript Engineer",
+  "description": "Professional fullstack engineer with 5+ years of experience in creating complex but user-friendly web applications for Profi.ru, OSOME. Hire me!",
+  "contact": "Contact me",
+  "print": "This is a printed version of ",
+
+  "experience": {
+    "name": "5+ years of experience",
+    "shortName": "Work experience",
+
+    "osome": {
+      "name": "OSOME",
+      "date": "FEB 2020",
+      "events": [
+        {
+          "name": "Senior Fullstack Engineer",
+          "text": "Part of the team that develops accounting products for customers and a related part of the CRM for the staff. As an avid learner of Amazon AWS, I am planning to get certified as AWS Solutions Architect in the near future."
+        }
+      ]
+    },
+
+    "profi": {
+      "name": "Profi.ru",
+      "date": "MAR 2017",
+      "events": [
+        {
+          "name": "Junior JavaScript Developer",
+          "text": "Within a team of three I won the corporate hackathon with a project for a chatbot integrated with VK and Telegram. Its main purpose was to suggest tutors matching the specified criteria to its customers, push inactive customers into converting and upsell related tutoring services to them. This project received a commendation from the CEO and I was offered to form a small product team of my own to evolve this project further.\n<details><summary>Read more</summary>\n- Learned `react` the hard way: shortly after I joined the company my team was reassigned to another task and I was left behind to finish up the frontend for the customer account section of the website. That which does not kill us makes us stronger!</details>"
+        },
+        {
+          "name": "Middle Fullstack Engineer",
+          "text": "Lead developer on the small product team that developed conversational interfaces and chatbots. Designed the architecture of the `node.js` service that allowed the company chatbot to seamlessly integrate with Facebook and VK. Discovered and implemented a way to triple the monthly amount of customers coming in from display ads in social media.\nAt the same time I was one of the core developers on the team that created and supported a platform for wizard-like customer interfaces. They were used throughout the main website and on a number of partner websites as a primary interface of placing orders with us by our customers, averaging 100k+ unique daily users. We went through several major releases of the platform and gracefully shut down all outdated versions having migrated the platform customers.\n<details><summary>Read more</summary>\n- Trained a <abbr title='Machine Learning'>ML</abbr> model that showed 94% success rate in detecting intent of receiving tutoring services and classifying said services in user posts from social networks, scraped in real time.\n- Implemented a version of `damerau-levenshtein` algorithm that allowed assigning arbitrary weights to different operations.\n- Proudly designed and created an internal content management system that made use of business rules written in a custom <abbr title='domain-specific language'>DSL</abbr>. This introduced a shallower learning curve and helped cut personnel training time in half.\n- My team and I received a CEO’s Choice Award after ranking 4th in a corporate hackathon with a project for seamlessly converting customers into service providers.</details>"
+        }
+      ]
+    },
+
+    "mosreg": {
+      "name": "Government of Moscow Region",
+      "date": "NOV 2014",
+      "events": [
+        {
+          "name": "Junior Marketing Analyst"
+        },
+        {
+          "name": "Deputy Head of Analytics Department",
+          "text": "Achieved the position in two years. The main focus of my work was to manage product features for the [state property auctions website](https://torgi.mosreg.ru/) that was being developed by an external contractor. As a result of my work, the system was successfully certified and grew to have 10k+ unique daily users.\n<details><summary>Read more</summary>\n- Created a [company website](https://rctmo.ru/) in `PHP`, `CSS` and `JavaScript`.\n- Developed <abbr title='Visual Studio Tools for Office'>VSTO</abbr> add-ins in `C#` and `Visual Basic` that calculated data and automatically compiled daily, weekly and quarterly reports.\n- Introduced Microsoft Access into department workflow, which resulted in a significantly decreased error rate and a productivity boost after the transitional period.</details>"
+        }
+      ]
+    }
+  },
+
+  "opensource": {
+    "name": "Open source & contract work",
+    "shortName": "Open source",
+
+    "ansible": {
+      "name": "Ansible by RedHat",
+      "date": "2018",
+      "events": [
+        {
+          "text": "Author and maintainer of two `Python` network modules for managing configuration of MikroTik RouterOS devices:\n- `routeros_facts` collects a base set of facts from a remote device.\n- `routeros_command` sends arbitrary commands to a remote device and returns results read from it."
+        }
+      ]
+    },
+    "rosr": {
+      "name": "Federal Service for State Registration Cadastre and Cartography",
+      "date": "2017",
+      "events": [
+        {
+          "text": "Two accounts of contract work:\n- Developed a <abbr title='Visual Studio Tools for Office'>VSTO</abbr> add-in in `C#` and `Visual Basic` that enabled users to create Word and Excel documents using the data from Oracle and MSSQL databases. The resulting software was used by 50+ employees at the head office and helped reduce average document preparation time from 7 days to 1.5 days.\n- Created a `PowerShell` command-line utility for batch processing XML documents that enabled users to quickly collect arbitrary information from a large set of data."
+        }
+      ]
+    }
+  },
+
+  "certification": {
+    "name": "Certifications",
+    "shortName": "Certifications",
+
+    "profi": {
+      "name": "Profi.ru",
+      "date": "2018",
+      "events": [
+        {
+          "text": "Won the 2018 annual internal hackathon with a chatbot integrated with VK and Telegram which had the ability to take tasks for finding a tutor, push inactive customers and upsell related services.\nNext year my team and I ranked 4th and won the CEO’s Choice Award with a project for an semi-automated conversion of customers which have services to offer into registered specialists that are able to take jobs from us."
+        }
+      ]
+    },
+    "mos": {
+      "name": "Microsoft Office",
+      "date": "2017",
+      "events": [
+        {
+          "text": "Microsoft Office Specialist: PowerPoint Associate"
+        }
+      ]
+    },
+    "ielts": {
+      "name": "IELTS",
+      "date": "2014",
+      "events": [
+        {
+          "text": "Overall score: **8.0**/9.0"
+        }
+      ]
+    }
+  },
+
+  "education": {
+    "name": "BEc, BMS & MEng",
+    "shortName": "Education",
+
+    "tsu": {
+      "name": "Tula State University",
+      "events": [
+        {
+          "date": "2014",
+          "name": "Diploma of Interpreting (English–Russian)",
+          "text": "- Graduated with honours.\n- GPA: **5.0**/5.0"
+        },
+        {
+          "date": "2014",
+          "name": "Bachelor of Economics",
+          "text": "Majored in International economy.\n- GPA: **4.6**/5.0"
+        },
+        {
+          "date": "2015",
+          "name": "Bachelor of Management Studies",
+          "text": "Majored in State and municipal management.\n- GPA: **4.4**/5.0"
+        },
+        {
+          "date": "2016",
+          "name": "Master of Engineering",
+          "text": "Majored in Technological machinery and equipment.\n- Graduated with honours.\n- GPA: **4.9**/5.0"
+        }
+      ]
+    }
+  }
+}
