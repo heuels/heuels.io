@@ -1,3 +1,4 @@
+import fetch from 'node-fetch';
 import * as gm from 'gm';
 import { delay } from '../utils';
 
@@ -22,6 +23,22 @@ describe.each(['en_US', 'ru_RU'])('%s', (locale: 'en_US' | 'ru_RU') => {
         await expect(
           page.screenshot({ fullPage: true }),
         ).resolves.toMatchImageSnapshot();
+      },
+    );
+
+    it.each<any>(['no-preference', 'dark', 'light'])(
+      'renders %s favicon',
+      async (colorScheme: 'no-preference' | 'dark' | 'light') => {
+        await page.emulateMedia({ media: 'screen', colorScheme });
+        await delay(500);
+
+        const favicon = await page.$eval(
+          "link[rel*='icon']",
+          ({ href }: HTMLLinkElement) => href,
+        );
+
+        const response = await fetch(favicon);
+        await expect(response.buffer()).resolves.toMatchImageSnapshot();
       },
     );
   });
