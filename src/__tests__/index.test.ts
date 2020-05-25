@@ -1,5 +1,5 @@
-import fetch from 'node-fetch';
 import * as gm from 'gm';
+import fetch from 'node-fetch';
 import { delay } from '../utils';
 
 describe.each(['en_US', 'ru_RU'])('%s', (locale: 'en_US' | 'ru_RU') => {
@@ -11,7 +11,7 @@ describe.each(['en_US', 'ru_RU'])('%s', (locale: 'en_US' | 'ru_RU') => {
     });
 
     it.each(['no-preference', 'dark', 'light'])(
-      'renders %s version',
+      'renders %s version for screen',
       async (colorScheme: 'no-preference' | 'dark' | 'light') => {
         await page.emulateMedia({ media: 'screen', colorScheme });
         await page.evaluate(() => {
@@ -27,6 +27,37 @@ describe.each(['en_US', 'ru_RU'])('%s', (locale: 'en_US' | 'ru_RU') => {
     );
 
     it.each<any>(['no-preference', 'dark', 'light'])(
+      'renders %s version for print',
+      async (
+        colorScheme: 'no-preference' | 'dark' | 'light',
+        done: jest.DoneCallback,
+      ) => {
+        await page.emulateMedia({ media: 'print', colorScheme });
+        await delay(500);
+
+        const pdf = await page.pdf({
+          format: 'A4',
+          margin: {
+            top: '10mm',
+            right: '10mm',
+            bottom: '10mm',
+            left: '10mm',
+          },
+        });
+
+        gm(pdf)
+          .density(300, 300)
+          .resize(2480, 3508)
+          .quality(100)
+          .toBuffer('png', (err, buffer) => {
+            expect(err).toBeNull();
+            expect(buffer).toMatchImageSnapshot();
+            done();
+          });
+      },
+    );
+
+    it.each(['no-preference', 'dark', 'light'])(
       'renders %s favicon',
       async (colorScheme: 'no-preference' | 'dark' | 'light') => {
         await page.emulateMedia({ media: 'screen', colorScheme });
@@ -41,30 +72,5 @@ describe.each(['en_US', 'ru_RU'])('%s', (locale: 'en_US' | 'ru_RU') => {
         await expect(response.buffer()).resolves.toMatchImageSnapshot();
       },
     );
-  });
-
-  describe('@media print', () => {
-    beforeAll(async () => {
-      await page.goto(`http://localhost:3000/${language}`);
-    });
-
-    it('renders print version', async (done) => {
-      await page.emulateMedia({ media: 'print' });
-
-      const pdf = await page.pdf({
-        format: 'A4',
-        margin: { top: '10mm', right: '10mm', bottom: '10mm', left: '10mm' },
-      });
-
-      gm(pdf)
-        .density(300, 300)
-        .resize(2480, 3508)
-        .quality(100)
-        .toBuffer('png', (err, buffer) => {
-          expect(err).toBeNull();
-          expect(buffer).toMatchImageSnapshot();
-          done();
-        });
-    });
   });
 });
