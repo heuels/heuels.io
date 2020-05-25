@@ -1,5 +1,6 @@
 {
-  "name": "preact-webpack4-minimal",
+  "name": "heuels.io",
+  "author": "Egor Zaitsev <heuels.io@heuels.io> (https://heuels.io/)",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
