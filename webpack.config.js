@@ -69,7 +69,7 @@ module.exports = {
       inject: true,
       title: '',
       meta: { description: '' },
-      favicon: 'src/assets/icons/favicon-light.ico',
+      favicon: 'src/assets/favicon-light.ico',
     }),
   ],
   devServer: {

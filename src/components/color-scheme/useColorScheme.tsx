@@ -77,6 +77,6 @@ const updateColorScheme = (colorScheme: ColorScheme) => {
 
 const updateFavicon = (colorScheme: ColorScheme) => {
   const link: HTMLLinkElement = document.querySelector("link[rel*='icon']");
-  link.href = `/icons/favicon-${colorScheme}.ico`;
+  link.href = `/favicon-${colorScheme}.ico`;
   document.getElementsByTagName('head')[0].appendChild(link);
 };
