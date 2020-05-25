@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "clean": "del dist",
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --mode development --hot --host 0.0.0.0 --port 3000",
-    "build": "webpack --mode production"
+    "test": "jest"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -30,6 +30,7 @@
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.0.4",
     "html-webpack-template": "^6.2.0",
+    "husky": "^4.2.5",
     "jest": "^25.3.0",
     "jest-playwright-preset": "^0.1.2",
     "jest-screenshot": "^0.3.0",
