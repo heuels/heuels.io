@@ -12,7 +12,7 @@
 
     "osome": {
       "name": "OSOME",
-      "date": "FEB 2020",
+      "dates": ["2020"],
       "events": [
         {
           "name": "Senior Fullstack Engineer",
@@ -23,7 +23,7 @@
 
     "profi": {
       "name": "Profi.ru",
-      "date": "MAR 2017",
+      "dates": ["2017", "2020"],
       "events": [
         {
           "name": "Junior JavaScript Developer",
@@ -38,7 +38,7 @@
 
     "mosreg": {
       "name": "Government of Moscow Region",
-      "date": "NOV 2014",
+      "dates": ["2014", "2017"],
       "events": [
         {
           "name": "Junior Marketing Analyst"
@@ -57,7 +57,7 @@
 
     "ansible": {
       "name": "Ansible by RedHat",
-      "date": "2018",
+      "dates": ["2018"],
       "events": [
         {
           "text": "Author and maintainer of two `Python` network modules for managing configuration of MikroTik RouterOS devices:\n- `routeros_facts` collects a base set of facts from a remote device.\n- `routeros_command` sends arbitrary commands to a remote device and returns results read from it."
@@ -66,7 +66,7 @@
     },
     "rosr": {
       "name": "Federal Service for State Registration Cadastre and Cartography",
-      "date": "2017",
+      "dates": ["2017"],
       "events": [
         {
           "text": "Two accounts of contract work:\n- Developed a <abbr title='Visual Studio Tools for Office'>VSTO</abbr> add-in in `C#` and `Visual Basic` that enabled users to create Word and Excel documents using the data from Oracle and MSSQL databases. The resulting software was used by 50+ employees at the head office and helped reduce average document preparation time from 7 days to 1.5 days.\n- Created a `PowerShell` command-line utility for batch processing XML documents that enabled users to quickly collect arbitrary information from a large set of data."
@@ -90,7 +90,7 @@
     },
     "mos": {
       "name": "Microsoft Office",
-      "date": "2017",
+      "dates": ["2017"],
       "events": [
         {
           "text": "Microsoft Office Specialist: PowerPoint Associate"
@@ -99,7 +99,7 @@
     },
     "ielts": {
       "name": "IELTS",
-      "date": "2014",
+      "dates": ["2014"],
       "events": [
         {
           "text": "Overall score: **8.0**/9.0"
@@ -116,22 +116,22 @@
       "name": "Tula State University",
       "events": [
         {
-          "date": "2014",
+          "dates": ["2014"],
           "name": "Diploma of Interpreting (English–Russian)",
           "text": "- Graduated with honours.\n- GPA: **5.0**/5.0"
         },
         {
-          "date": "2014",
+          "dates": ["2014"],
           "name": "Bachelor of Economics",
           "text": "Majored in International economy.\n- GPA: **4.6**/5.0"
         },
         {
-          "date": "2015",
+          "dates": ["2015"],
           "name": "Bachelor of Management Studies",
           "text": "Majored in State and municipal management.\n- GPA: **4.4**/5.0"
         },
         {
-          "date": "2016",
+          "dates": ["2016"],
           "name": "Master of Engineering",
           "text": "Majored in Technological machinery and equipment.\n- Graduated with honours.\n- GPA: **4.9**/5.0"
         }

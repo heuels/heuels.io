@@ -7,8 +7,8 @@ export interface ITimeline {
 
 export interface IGroup {
   name: string;
-  date?: string;
   color: string;
+  dates?: [string] | [string, string];
   events: IEvent[];
   images: {
     icon: ImageSet | null;
@@ -19,7 +19,7 @@ export interface IGroup {
 export interface IEvent {
   name: string | null;
   text: string | null;
-  date?: string;
+  dates?: [string] | [string, string];
 }
 
 export type ImageSet = {

@@ -8,7 +8,7 @@ export default (t): ITimeline[] => [
     groups: [
       {
         name: t('experience.osome.name'),
-        date: t('experience.osome.date'),
+        dates: [t('experience.osome.dates.0'), null],
         color: '#2978fd',
         events: [
           {
@@ -29,7 +29,7 @@ export default (t): ITimeline[] => [
       },
       {
         name: t('experience.profi.name'),
-        date: t('experience.profi.date'),
+        dates: [t('experience.profi.dates.0'), t('experience.profi.dates.1')],
         color: '#c00027',
         events: [
           {
@@ -54,7 +54,7 @@ export default (t): ITimeline[] => [
       },
       {
         name: t('experience.mosreg.name'),
-        date: t('experience.mosreg.date'),
+        dates: [t('experience.mosreg.dates.0'), t('experience.mosreg.dates.1')],
         color: '#e21c2a',
         events: [
           {
@@ -83,7 +83,7 @@ export default (t): ITimeline[] => [
     groups: [
       {
         name: t('opensource.ansible.name'),
-        date: t('opensource.ansible.date'),
+        dates: [t('opensource.ansible.dates.0')],
         color: '#bb261a',
         events: [
           {
@@ -104,7 +104,7 @@ export default (t): ITimeline[] => [
       },
       {
         name: t('opensource.rosr.name'),
-        date: t('opensource.rosr.date'),
+        dates: [t('opensource.rosr.dates.0')],
         color: '#2f74ba',
         events: [
           {
@@ -129,7 +129,7 @@ export default (t): ITimeline[] => [
     groups: [
       {
         name: null,
-        date: t('certification.mos.date'),
+        dates: [t('certification.mos.dates.0')],
         color: '#d94b24',
         events: [
           {
@@ -150,7 +150,7 @@ export default (t): ITimeline[] => [
       },
       {
         name: null,
-        date: t('certification.ielts.date'),
+        dates: [t('certification.ielts.dates.0')],
         color: '#c7002b',
         events: [
           {
@@ -179,22 +179,22 @@ export default (t): ITimeline[] => [
         events: [
           {
             name: t('education.tsu.events.3.name'),
-            date: t('education.tsu.events.3.date'),
+            dates: [t('education.tsu.events.3.dates.0')],
             text: t('education.tsu.events.3.text'),
           },
           {
             name: t('education.tsu.events.2.name'),
-            date: t('education.tsu.events.2.date'),
+            dates: [t('education.tsu.events.2.dates.0')],
             text: t('education.tsu.events.2.text'),
           },
           {
             name: t('education.tsu.events.1.name'),
-            date: t('education.tsu.events.1.date'),
+            dates: [t('education.tsu.events.1.dates.0')],
             text: t('education.tsu.events.1.text'),
           },
           {
             name: t('education.tsu.events.0.name'),
-            date: t('education.tsu.events.0.date'),
+            dates: [t('education.tsu.events.0.dates.0')],
             text: t('education.tsu.events.0.text'),
           },
         ],

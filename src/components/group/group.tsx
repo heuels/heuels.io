@@ -10,14 +10,14 @@ interface Props extends IGroup {
 
 export const Group = ({
   name,
-  date,
+  dates,
   color,
   events,
   gradient,
   images: { icon, logo },
 }: Props) => (
   <article styleName="article">
-    <Label color={color} text={date} />
+    <Label color={color} dates={dates} />
 
     {events.map((event, index) => {
       const isFirstEvent = index === 0;
@@ -25,7 +25,7 @@ export const Group = ({
 
       return (
         <Fragment>
-          <Label color={color} text={event.date} />
+          <Label color={color} dates={event.dates} />
           <Thread gradient={gradient} last={isLastEvent}>
             <Dot color={color} large={isFirstEvent} src={icon} />
           </Thread>
