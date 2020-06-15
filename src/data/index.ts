@@ -133,7 +133,7 @@ export default (t): ITimeline[] => [
         color: '#d94b24',
         events: [
           {
-            name: null,
+            name: t('certification.mos.events.0.name'),
             text: t('certification.mos.events.0.text'),
           },
         ],

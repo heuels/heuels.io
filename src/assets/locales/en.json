@@ -93,7 +93,8 @@
       "dates": ["2017"],
       "events": [
         {
-          "text": "Microsoft Office Specialist: PowerPoint Associate"
+          "name": "Microsoft Office Specialist: PowerPoint Associate",
+          "text": "[![See this badge on Acclaim](/images/office-badge.png)](https://www.youracclaim.com/badges/fa12b04c-4e78-431d-a762-059e00d423a5)"
         }
       ]
     },

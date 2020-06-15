@@ -70,6 +70,14 @@
     "name": "Сертификации",
     "shortName": "Сертификации",
 
+    "mos": {
+      "events": [
+        {
+          "text": "[![Открыть в Acclaim](/images/office-badge.png)](https://www.youracclaim.com/badges/fa12b04c-4e78-431d-a762-059e00d423a5)"
+        }
+      ]
+    },
+
     "ielts": {
       "events": [
         {

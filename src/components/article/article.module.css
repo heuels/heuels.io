@@ -133,6 +133,16 @@
         border-color: var(--accent-color);
       }
 
+      &:only-child {
+        border-bottom: 0;
+
+        @media only print {
+          &::after {
+            display: none;
+          }
+        }
+      }
+
       @media only print {
         border: 0;
         color: rgba(56, 59, 64, 0.87);
