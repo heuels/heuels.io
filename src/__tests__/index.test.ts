@@ -8,6 +8,7 @@ describe.each(['en_US', 'ru_RU'])('%s', (locale: 'en_US' | 'ru_RU') => {
   describe('@media prefers-color-scheme', () => {
     beforeEach(async () => {
       await page.goto(`http://localhost:3000/${language}`);
+      await page.evaluate(() => localStorage.clear());
     });
 
     describe('@media screen', () => {
