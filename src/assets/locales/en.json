@@ -16,7 +16,7 @@
       "events": [
         {
           "name": "Senior Fullstack Engineer",
-          "text": "Part of the team that develops accounting products for customers and a related part of the CRM for the staff. As an avid learner of Amazon AWS, I am planning to get certified as AWS Solutions Architect in the near future."
+          "text": "Fintech startup that helps entrepreneurs worldwide to get rid of the paperwork nightmare. Full stack developer on the product team that creates accounting products for our business customers. As an AWS Certified Solutions Architect I help create highly-performant and resilient web applications in the cloud."
         }
       ]
     },
@@ -69,7 +69,7 @@
       "dates": ["2017"],
       "events": [
         {
-          "text": "Two accounts of contract work:\n- Developed a <abbr title='Visual Studio Tools for Office'>VSTO</abbr> add-in in `C#` and `Visual Basic` that enabled users to create Word and Excel documents using the data from Oracle and MSSQL databases. The resulting software was used by 50+ employees at the head office and helped reduce average document preparation time from 7 days to 1.5 days.\n- Created a `PowerShell` command-line utility for batch processing XML documents that enabled users to quickly collect arbitrary information from a large set of data."
+          "text": "Two contracts for developing add-ins and utilities in `C#`, `Visual Basic` and `Powershell`.\n<details><summary>Read more</summary>\n- Developed a <abbr title='Visual Studio Tools for Office'>VSTO</abbr> add-in in `C#` and `Visual Basic` that enabled users to create Word and Excel documents using the data from Oracle and MSSQL databases. The resulting software was used by 50+ employees at the head office and helped reduce average document preparation time from 7 days to 1.5 days.\n- Created a `PowerShell` command-line utility for batch processing XML documents that enabled users to quickly collect arbitrary information from a large set of data.</details>"
         }
       ]
     }
@@ -79,25 +79,28 @@
     "name": "Certifications",
     "shortName": "Certifications",
 
-    "profi": {
-      "name": "Profi.ru",
-      "date": "2018",
+    "aws": {
+      "name": "Amazon Web Services",
+      "dates": ["2020"],
       "events": [
         {
-          "text": "Won the 2018 annual internal hackathon with a chatbot integrated with VK and Telegram which had the ability to take tasks for finding a tutor, push inactive customers and upsell related services.\nNext year my team and I ranked 4th and won the CEO’s Choice Award with a project for an semi-automated conversion of customers which have services to offer into registered specialists that are able to take jobs from us."
+          "name": "AWS Certified Solutions Architect – Associate",
+          "text": "[![AWS Certified Solutions Architect – Associate](/images/aws-csaa-badge.png)](https://www.youracclaim.com/badges/163194d5-f1bf-44c8-a70a-965b3c09208e/public_url)"
         }
       ]
     },
+
     "mos": {
       "name": "Microsoft Office",
       "dates": ["2017"],
       "events": [
         {
           "name": "Microsoft Office Specialist: PowerPoint Associate",
-          "text": "[![See this badge on Acclaim](/images/office-badge.png)](https://www.youracclaim.com/badges/fa12b04c-4e78-431d-a762-059e00d423a5)"
+          "text": "[![Microsoft Office Specialist: PowerPoint Associate](/images/office-badge.png)](https://www.youracclaim.com/badges/fa12b04c-4e78-431d-a762-059e00d423a5/public_url)"
         }
       ]
     },
+
     "ielts": {
       "name": "IELTS",
       "dates": ["2014"],

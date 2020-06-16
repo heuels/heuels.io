@@ -128,6 +128,24 @@ export default (t): ITimeline[] => [
     shortName: t('certification.shortName'),
     groups: [
       {
+        name: t('certification.aws.name'),
+        dates: [t('certification.aws.dates.0')],
+        color: '#f29d38',
+        events: [
+          {
+            name: t('certification.aws.events.0.name'),
+            text: t('certification.aws.events.0.text'),
+          },
+        ],
+        images: {
+          icon: {
+            dark: '/images/aws-icon-dark.png',
+            light: '/images/aws-icon-light.png',
+          },
+          logo: null,
+        },
+      },
+      {
         name: null,
         dates: [t('certification.mos.dates.0')],
         color: '#d94b24',
