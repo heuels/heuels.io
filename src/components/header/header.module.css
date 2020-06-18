@@ -76,6 +76,7 @@
     }
 
     -webkit-print-color-adjust: exact;
+    color-adjust: exact;
     height: 1rem;
     font-weight: 500;
     font-feature-settings: 'salt' 1;

@@ -1,5 +1,6 @@
 .title {
   -webkit-print-color-adjust: exact;
+  color-adjust: exact;
 
   &_font-size-lg {
     font-size: 3rem;
@@ -31,6 +32,7 @@
     @media only print {
       font-size: 2rem;
       -webkit-print-color-adjust: exact;
+      color-adjust: exact;
     }
 
     font-size: 3rem;

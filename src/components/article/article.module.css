@@ -44,6 +44,7 @@
     }
 
     -webkit-print-color-adjust: exact;
+    color-adjust: exact;
     display: inline-block;
     height: 1rem;
     width: 3rem;
@@ -80,6 +81,7 @@
       height: 0.125rem;
       border-radius: 1rem;
       -webkit-print-color-adjust: exact;
+      color-adjust: exact;
 
       @media only print {
         transform: rotate(90deg);
@@ -174,6 +176,7 @@
       display: inline-block;
       line-height: 1;
       -webkit-print-color-adjust: exact;
+      color-adjust: exact;
       text-transform: lowercase;
 
       @media only screen {
@@ -202,6 +205,7 @@
       border-radius: 0.125rem;
       background-color: rgba(247, 202, 69, 0.5);
       -webkit-print-color-adjust: exact;
+      color-adjust: exact;
 
       @media only screen {
         :root[data-color-scheme='dark'] & {
@@ -269,10 +273,12 @@
     align-items: center;
     grid-column: 2;
     -webkit-print-color-adjust: exact;
+    color-adjust: exact;
 
     &-dot {
       margin-bottom: 1rem;
       -webkit-print-color-adjust: exact;
+      color-adjust: exact;
 
       &_small {
         min-width: 1rem;
