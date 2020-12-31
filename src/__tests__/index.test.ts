@@ -45,7 +45,7 @@ describe.each(['en_US', 'ru_RU'])('%s', (locale: 'en_US' | 'ru_RU') => {
       );
     });
 
-    describe('@media print', () => {
+    describe.skip('@media print', () => {
       it.each<any>(['no-preference', 'dark', 'light'])(
         'renders %s version',
         async (

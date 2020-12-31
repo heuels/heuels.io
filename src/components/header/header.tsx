@@ -45,8 +45,8 @@ export const Header = ({ data: timelines }) => {
           heuels.io
         </a>
         <span styleName="header__contacts-separator">·</span>
-        <a href="mailto:heuels.io@heuels.io" styleName="header__contacts-entry">
-          heuels.io@heuels.io
+        <a href="mailto:hello@heuels.io" styleName="header__contacts-entry">
+          hello@heuels.io
         </a>
         <span styleName="header__contacts-separator">·</span>
         <a href="https://github.com/heuels" styleName="header__contacts-entry">
