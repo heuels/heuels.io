@@ -77,18 +77,36 @@ export default (t): ITimeline[] => [
     ],
   },
   {
-    id: 'opensource',
-    name: t('opensource.name'),
-    shortName: t('opensource.shortName'),
+    id: 'projects',
+    name: t('projects.name'),
+    shortName: t('projects.shortName'),
     groups: [
       {
-        name: t('opensource.ansible.name'),
-        dates: [t('opensource.ansible.dates.0')],
+        name: t('projects.octokit.name'),
+        dates: [t('projects.octokit.dates.0')],
+        color: '#959595',
+        events: [
+          {
+            name: t('projects.octokit.events.0.name'),
+            text: t('projects.octokit.events.0.text'),
+          },
+        ],
+        images: {
+          icon: {
+            dark: '/images/github-icon-dark.png',
+            light: '/images/github-icon-light.png',
+          },
+          logo: null,
+        },
+      },
+      {
+        name: t('projects.ansible.name'),
+        dates: [t('projects.ansible.dates.0')],
         color: '#bb261a',
         events: [
           {
             name: null,
-            text: t('opensource.ansible.events.0.text'),
+            text: t('projects.ansible.events.0.text'),
           },
         ],
         images: {
@@ -103,13 +121,13 @@ export default (t): ITimeline[] => [
         },
       },
       {
-        name: t('opensource.rosr.name'),
-        dates: [t('opensource.rosr.dates.0')],
+        name: t('projects.rosr.name'),
+        dates: [t('projects.rosr.dates.0')],
         color: '#2f74ba',
         events: [
           {
             name: null,
-            text: t('opensource.rosr.events.0.text'),
+            text: t('projects.rosr.events.0.text'),
           },
         ],
         images: {

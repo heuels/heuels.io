@@ -25,6 +25,14 @@
   &__label {
     background-color: #383b4021;
 
+    &_small {
+      width: 3rem;
+
+      @media only print {
+        height: 3rem;
+      }
+    }
+
     @media only screen {
       :root[data-color-scheme='dark'] & {
         border: 1px solid;
@@ -37,7 +45,7 @@
       white-space: nowrap;
       width: 1rem;
       writing-mode: vertical-rl;
-      height: 3rem;
+      height: auto;
       margin: 0;
       column-span: none;
       border: 0;
@@ -47,7 +55,7 @@
     color-adjust: exact;
     display: inline-block;
     height: 1rem;
-    width: 3rem;
+    width: auto;
     font-family: 'IBM Plex Mono';
     font-weight: 500;
     font-feature-settings: 'salt' 1;

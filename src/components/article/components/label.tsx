@@ -33,7 +33,7 @@ export const Label = ({
           <span
             style={{ color, backgroundColor: alpha(color, 0.13) }}
             styleName={cn('article__label', {
-              article__label_small: date1.length === 4,
+              article__label_small: date2.length === 4,
             })}
           >
             {date2}
