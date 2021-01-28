@@ -215,22 +215,22 @@ export default (t): ITimeline[] => [
         events: [
           {
             name: t('education.tsu.events.3.name'),
-            dates: [t('education.tsu.events.3.dates.0')],
+            dates: [t('education.tsu.events.3.dates.0'), t('education.tsu.events.3.dates.1')],
             text: t('education.tsu.events.3.text'),
           },
           {
             name: t('education.tsu.events.2.name'),
-            dates: [t('education.tsu.events.2.dates.0')],
+            dates: [t('education.tsu.events.2.dates.0'), t('education.tsu.events.2.dates.1')],
             text: t('education.tsu.events.2.text'),
           },
           {
             name: t('education.tsu.events.1.name'),
-            dates: [t('education.tsu.events.1.dates.0')],
+            dates: [t('education.tsu.events.1.dates.0'), t('education.tsu.events.1.dates.1')],
             text: t('education.tsu.events.1.text'),
           },
           {
             name: t('education.tsu.events.0.name'),
-            dates: [t('education.tsu.events.0.dates.0')],
+            dates: [t('education.tsu.events.0.dates.0'), t('education.tsu.events.0.dates.1')],
             text: t('education.tsu.events.0.text'),
           },
         ],
