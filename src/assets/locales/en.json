@@ -131,22 +131,22 @@
       "name": "Tula State University",
       "events": [
         {
-          "dates": ["2010", "2014"],
+          "dates": ["2014"],
           "name": "Diploma of Interpreting (English–Russian)",
           "text": "- Graduated with honours.\n- GPA: **5.0**/5.0"
         },
         {
-          "dates": ["2010", "2014"],
+          "dates": ["2014"],
           "name": "Bachelor of Economics",
           "text": "Majored in International economy.\n- GPA: **4.6**/5.0"
         },
         {
-          "dates": ["2013", "2015"],
+          "dates": ["2015"],
           "name": "Bachelor of Management Studies",
           "text": "Majored in State and municipal management.\n- GPA: **4.4**/5.0"
         },
         {
-          "dates": ["2014", "2016"],
+          "dates": ["2016"],
           "name": "Master of Engineering",
           "text": "Majored in Technological machinery and equipment.\n- Graduated with honours.\n- GPA: **4.9**/5.0"
         }
