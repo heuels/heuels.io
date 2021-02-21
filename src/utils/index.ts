@@ -1,3 +1,22 @@
+import { ColorScheme } from 'components/color-scheme/useColorScheme';
+import { ColorSet } from 'types';
+
+export function getColor(
+  color: string | ColorSet,
+  colorScheme: ColorScheme,
+): string | undefined {
+  if (!color) {
+    return;
+  }
+
+  if (typeof color === 'string') {
+    return color;
+  }
+
+  return color[colorScheme];
+}
+
+
 /**
  *
  * @param deg

@@ -8,7 +8,7 @@ export default (t): ITimeline[] => [
     groups: [
       {
         name: t('experience.osome.name'),
-        dates: [t('experience.osome.dates.0'), null],
+        dates: [t('experience.osome.dates.0')],
         color: '#2978fd',
         events: [
           {
