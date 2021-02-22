@@ -84,7 +84,10 @@ export default (t): ITimeline[] => [
       {
         name: t('projects.octokit.name'),
         dates: [t('projects.octokit.dates.0')],
-        color: '#959595',
+        color: {
+          dark: '#ffffff',
+          light: '#000000'
+        },
         events: [
           {
             name: t('projects.octokit.events.0.name'),
