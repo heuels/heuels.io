@@ -13,6 +13,7 @@ interface Props extends IGroup {
 }
 
 export const Group = ({
+  link,
   name,
   dates,
   color,
@@ -32,14 +33,14 @@ export const Group = ({
         const isLastEvent = index === events.length - 1;
 
         return (
-          <Fragment>
+          <Fragment key={index}>
             <Label key={color} color={mainColor} dates={event.dates} />
             <Thread gradient={gradient} last={isLastEvent}>
               <Dot color={mainColor} large={isFirstEvent} src={icon} />
             </Thread>
 
             <div>
-              {isFirstEvent && <Company name={name} src={logo} />}
+              {isFirstEvent && <Company link={link} name={name} src={logo} />}
               <Event name={event.name} text={event.text} />
             </div>
           </Fragment>

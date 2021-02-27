@@ -8,6 +8,7 @@ export default (t): ITimeline[] => [
     groups: [
       {
         name: t('experience.osome.name'),
+        link: 'https://osome.com/',
         dates: [t('experience.osome.dates.0')],
         color: '#2978fd',
         events: [
@@ -29,6 +30,7 @@ export default (t): ITimeline[] => [
       },
       {
         name: t('experience.profi.name'),
+        link: 'https://profi.ru/',
         dates: [t('experience.profi.dates.0'), t('experience.profi.dates.1')],
         color: '#c00027',
         events: [
@@ -54,6 +56,7 @@ export default (t): ITimeline[] => [
       },
       {
         name: t('experience.mosreg.name'),
+        link: 'https://rctmo.ru/',
         dates: [t('experience.mosreg.dates.0'), t('experience.mosreg.dates.1')],
         color: '#e21c2a',
         events: [
@@ -83,6 +86,7 @@ export default (t): ITimeline[] => [
     groups: [
       {
         name: t('projects.octokit.name'),
+        link: 'https://github.com/octokit',
         dates: [t('projects.octokit.dates.0')],
         color: {
           dark: '#ffffff',
@@ -104,6 +108,7 @@ export default (t): ITimeline[] => [
       },
       {
         name: t('projects.ansible.name'),
+        link: 'https://github.com/ansible-collections/community.routeros',
         dates: [t('projects.ansible.dates.0')],
         color: '#bb261a',
         events: [
@@ -125,6 +130,7 @@ export default (t): ITimeline[] => [
       },
       {
         name: t('projects.rosr.name'),
+        link: null,
         dates: [t('projects.rosr.dates.0')],
         color: '#2f74ba',
         events: [
@@ -150,6 +156,7 @@ export default (t): ITimeline[] => [
     groups: [
       {
         name: t('certification.aws.name'),
+        link: null,
         dates: [t('certification.aws.dates.0')],
         color: '#f29d38',
         events: [
@@ -168,6 +175,7 @@ export default (t): ITimeline[] => [
       },
       {
         name: null,
+        link: null,
         dates: [t('certification.mos.dates.0')],
         color: '#d94b24',
         events: [
@@ -189,6 +197,7 @@ export default (t): ITimeline[] => [
       },
       {
         name: null,
+        link: null,
         dates: [t('certification.ielts.dates.0')],
         color: '#c7002b',
         events: [
@@ -214,6 +223,7 @@ export default (t): ITimeline[] => [
     groups: [
       {
         name: t('education.tsu.name'),
+        link: 'https://tsu.tula.ru',
         color: '#439cdb',
         events: [
           {

@@ -7,6 +7,7 @@ export interface ITimeline {
 
 export interface IGroup {
   name: string;
+  link: string | null;
   color: string | ColorSet;
   dates?: [string] | [string, string];
   events: IEvent[];
