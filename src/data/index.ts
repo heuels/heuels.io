@@ -13,6 +13,10 @@ export default (t): ITimeline[] => [
         color: '#2978fd',
         events: [
           {
+            name: t('experience.osome.events.1.name'),
+            text: t('experience.osome.events.1.text'),
+          },
+          {
             name: t('experience.osome.events.0.name'),
             text: t('experience.osome.events.0.text'),
           },

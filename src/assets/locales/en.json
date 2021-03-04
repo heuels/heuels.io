@@ -1,13 +1,13 @@
 {
   "intro": "Hi, I'm",
   "title": "Egor Zaitsev",
-  "subtitle": "Fullstack JavaScript Engineer",
-  "description": "Professional fullstack engineer with 5+ years of experience in creating complex but user-friendly web applications for Profi.ru, OSOME. Hire me!",
+  "subtitle": "Senior Software Engineer",
+  "description": "Professional full stack engineer with 5+ years of experience in creating complex but user-friendly web applications for Profi.ru, OSOME & others.",
   "contact": "Contact me",
   "print": "This is a printed version of ",
 
   "experience": {
-    "name": "5+ years of experience",
+    "name": "6+ years of experience",
     "shortName": "Work experience",
 
     "osome": {
@@ -16,7 +16,11 @@
       "events": [
         {
           "name": "Senior Fullstack Engineer",
-          "text": "Fintech startup that helps entrepreneurs worldwide to get rid of the paperwork nightmare. Full stack developer on the product team that creates accounting products for our business customers. As an AWS Certified Solutions Architect I help create highly-performant and resilient web applications in the cloud."
+          "text": "<div>\n- Designed and created a serverless service for receiving files over email using `amazon ses`, which enabled clients to forward their bills and invoices to a special email address and they automatically would be uploaded to the application. When forwarded email does not have any attachments, a PDF version of its content is created using `puppeteer`.\n- One of the main developers on a project for creating a application-wide demo mode, which enabled clients to get acquainted with the application interface and functionality before actually baying for the subscription.</div>"
+        },
+        {
+          "name": "Team Lead",
+          "text": "Singaporean fintech startup that provides incorporation and accounting services to SMEs around the world.\n*People manager for a distributed product team of 10 people.* My responsibilities included hiring employees, convening monthly 1-on-1 meetings and biquarterly performance reviews that resulted in formulating professional development plans for developers.\nAs a technical lead I estimated projects and tracked their completion, decomposed product tasks during grooming sessions, performed code review and controlled the overall quality of delivered features. I also managed the technical debt and coordinated the communication with operations teams distributed over 4 countries — Singapore, Hong Kong, Malaysia and the UK.\n<div>\n- Identified bottlenecks in internal service desk processes and proposed a solution to incorporate support responsibilities into product teams, instead of assigning a single member of the team to service desk duty each sprint. Implementing the proposition resulted in *increased operational efficiency*.\n- My team and I designed and created a service for automated collection and processing of bank statements. Clients are reminded to upload the documents, which are then processed <abbr title='Optical character recognition'>OCR</abbr> service to extract relevant data and sent over to a `camunda` process engine, and operations teams are alerted in case anything goes awry.</div>"
         }
       ]
     },
@@ -27,11 +31,11 @@
       "events": [
         {
           "name": "Junior JavaScript Developer",
-          "text": "Within a team of three I won the corporate hackathon with a project for a chatbot integrated with VK and Telegram. Its main purpose was to suggest tutors matching the specified criteria to its customers, push inactive customers into converting and upsell related tutoring services to them. This project received a commendation from the CEO and I was offered to form a small product team of my own to evolve this project further.\n<details><summary>Read more</summary>\n- Learned `react` the hard way: shortly after I joined the company my team was reassigned to another task and I was left behind to finish up the frontend for the customer account section of the website. That which does not kill us makes us stronger!</details>"
+          "text": "<div>\n- Within a team of three I won the corporate hackathon with a project for a chatbot integrated with VK and Telegram. Its main purpose was to suggest tutors matching the specified criteria to its customers, push inactive customers into converting and upsell related tutoring services to them. This project received a commendation from the CEO and I was offered to form a small product team of my own to evolve this project further.\n- Learned `react` the hard way: shortly after I joined the company my team was reassigned to another task and I was left behind to finish up the frontend for the customer account section of the website. That which does not kill us makes us stronger!</details>"
         },
         {
           "name": "Middle Fullstack Engineer",
-          "text": "Lead developer on the small product team that developed conversational interfaces and chatbots. Designed the architecture of the `node.js` service that allowed the company chatbot to seamlessly integrate with Facebook and VK. Discovered and implemented a way to triple the monthly amount of customers coming in from display ads in social media.\nAt the same time I was one of the core developers on the team that created and supported a platform for wizard-like customer interfaces. They were used throughout the main website and on a number of partner websites as a primary interface of placing orders with us by our customers, averaging 100k+ unique daily users. We went through several major releases of the platform and gracefully shut down all outdated versions having migrated the platform customers.\n<details><summary>Read more</summary>\n- Trained a <abbr title='Machine Learning'>ML</abbr> model that showed 94% success rate in detecting intent of receiving tutoring services and classifying said services in user posts from social networks, scraped in real time.\n- Implemented a version of `damerau-levenshtein` algorithm that allowed assigning arbitrary weights to different operations.\n- Proudly designed and created an internal content management system that made use of business rules written in a custom <abbr title='domain-specific language'>DSL</abbr>. This introduced a shallower learning curve and helped cut personnel training time in half.\n- My team and I received a CEO’s Choice Award after ranking 4th in a corporate hackathon with a project for seamlessly converting customers into service providers.</details>"
+          "text": "As an individual contributor I led the effort to develop conversational interfaces and chatbots. Designed the architecture of the `node.js` service that allowed the company chatbot to seamlessly integrate with Facebook and VK. Discovered and implemented a way to *triple* the monthly amount of customers coming in from display ads in social media.\nAt the same time I was one of the core developers on the team that created and supported a platform for wizard-like customer interfaces. They were used throughout the main website and on a number of partner websites as a primary interface of placing orders with us by our customers, averaging *100k+ unique daily users*. We went through several major releases of the platform and gracefully shut down all outdated versions having migrated the platform customers.\n<div>\n- Trained a <abbr title='Machine Learning'>ML</abbr> model that showed 94% success rate in detecting intent of receiving tutoring services and classifying said services in user posts from social networks, scraped in real time.\n- Implemented a version of `damerau-levenshtein` algorithm that allowed assigning arbitrary weights to different operations.\n- Proudly designed and created an internal content management system that made use of business rules written in a custom <abbr title='domain-specific language'>DSL</abbr>. This introduced a shallower learning curve and helped cut personnel training time in half.\n- My team and I received a CEO’s Choice Award after ranking 4th in a corporate hackathon with a project for seamlessly converting customers into service providers.</details>"
         }
       ]
     },
@@ -45,7 +49,7 @@
         },
         {
           "name": "Deputy Head of Analytics Department",
-          "text": "Achieved the position in two years. The main focus of my work was to manage product features for the [state property auctions website](https://torgi.mosreg.ru/) that was being developed by an external contractor. As a result of my work, the system was successfully certified and grew to have 10k+ unique daily users.\n<details><summary>Read more</summary>\n- Created a [company website](https://rctmo.ru/) in `PHP`, `CSS` and `JavaScript`.\n- Developed <abbr title='Visual Studio Tools for Office'>VSTO</abbr> add-ins in `C#` and `Visual Basic` that calculated data and automatically compiled daily, weekly and quarterly reports.\n- Introduced Microsoft Access into department workflow, which resulted in a significantly decreased error rate and a productivity boost after the transitional period.</details>"
+          "text": "Achieved the position in two years. The main focus of my work was to manage product features for the [state property auctions website](https://torgi.mosreg.ru/) that was being developed by an external contractor. As a result of my work, the system was successfully certified and grew to have 10k+ unique daily users.\n<div>\n- Created a [company website](https://rctmo.ru/) in `PHP`, `CSS` and `JavaScript`.\n- Developed <abbr title='Visual Studio Tools for Office'>VSTO</abbr> add-ins in `C#` and `Visual Basic` that calculated data and automatically compiled daily, weekly and quarterly reports.\n- Introduced Microsoft Access into department workflow, which resulted in a significantly decreased error rate and a productivity boost after the transitional period.</details>"
         }
       ]
     }
@@ -80,7 +84,7 @@
       "dates": ["2017"],
       "events": [
         {
-          "text": "Two contracts for developing add-ins and utilities in `C#`, `Visual Basic` and `Powershell`.\n<details><summary>Read more</summary>\n- Developed a <abbr title='Visual Studio Tools for Office'>VSTO</abbr> add-in in `C#` and `Visual Basic` that enabled users to create Word and Excel documents using the data from Oracle and MSSQL databases. The resulting software was used by 50+ employees at the head office and helped reduce average document preparation time from 7 days to 1.5 days.\n- Created a `PowerShell` command-line utility for batch processing XML documents that enabled users to quickly collect arbitrary information from a large set of data.</details>"
+          "text": "Two contracts for developing add-ins and utilities in `C#`, `Visual Basic` and `Powershell`.\n<div>\n- Developed a <abbr title='Visual Studio Tools for Office'>VSTO</abbr> add-in in `C#` and `Visual Basic` that enabled users to create Word and Excel documents using the data from Oracle and MSSQL databases. The resulting software was used by 50+ employees at the head office and helped reduce average document preparation time from 7 days to 1.5 days.\n- Created a `PowerShell` command-line utility for batch processing XML documents that enabled users to quickly collect arbitrary information from a large set of data.</details>"
         }
       ]
     }
