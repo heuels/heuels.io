@@ -7,9 +7,34 @@ export default (t): ITimeline[] => [
     shortName: t('experience.shortName'),
     groups: [
       {
+        name: t('experience.ondeck.name'),
+        link: 'https://beondeck.com/',
+        dates: [t('experience.ondeck.dates.0')],
+        color: {
+          dark: '#ded2b8',
+          light: '#212d47',
+        },
+        events: [
+          {
+            name: t('experience.ondeck.events.0.name'),
+            text: t('experience.ondeck.events.0.text'),
+          },
+        ],
+        images: {
+          icon: {
+            dark: '/images/ondeck-icon-dark.png',
+            light: '/images/ondeck-icon-light.png',
+          },
+          logo: {
+            dark: '/images/ondeck-logo-dark.png',
+            light: '/images/ondeck-logo-light.png',
+          },
+        },
+      },
+      {
         name: t('experience.osome.name'),
         link: 'https://osome.com/',
-        dates: [t('experience.osome.dates.0')],
+        dates: [t('experience.osome.dates.0'), t('experience.osome.dates.1')],
         color: '#2978fd',
         events: [
           {

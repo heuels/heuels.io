@@ -10,9 +10,20 @@
     "name": "6+ years of experience",
     "shortName": "Work experience",
 
+    "ondeck": {
+      "name": "On Deck",
+      "dates": ["2021"],
+      "events": [
+        {
+          "name": "Senior Software Engineer",
+          "text": ""
+        }
+      ]
+    },
+
     "osome": {
       "name": "OSOME",
-      "dates": ["2020"],
+      "dates": ["2020", "2021"],
       "events": [
         {
           "name": "Senior Fullstack Engineer",
