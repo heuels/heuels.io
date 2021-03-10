@@ -27,7 +27,7 @@
       "events": [
         {
           "name": "Senior Fullstack Engineer",
-          "text": "<div>\n- Designed and created a serverless service for receiving files over email using `amazon ses`, which enabled clients to forward their bills and invoices to a special email address and they automatically would be uploaded to the application. When forwarded email does not have any attachments, a PDF version of its content is created using `puppeteer`.\n- One of the main developers on a project for creating a application-wide demo mode, which enabled clients to get acquainted with the application interface and functionality before actually baying for the subscription.</div>"
+          "text": "<div>\n- Designed and created a serverless service for receiving files over email using `amazon ses`, which enabled clients to forward their bills and invoices to a special email address and they automatically would be uploaded to the application. When forwarded email does not have any attachments, a PDF version of its content is created using `puppeteer`.\n- One of the main developers on a project for creating a application-wide demo mode, which enabled clients to get acquainted with the application interface and functionality before actually paying for the subscription.</div>"
         },
         {
           "name": "Team Lead",
