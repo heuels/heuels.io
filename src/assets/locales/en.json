@@ -70,6 +70,17 @@
     "name": "Personal projects & open source",
     "shortName": "Personal projects",
 
+    "grabvintage": {
+      "name": "Grab Vintage",
+      "dates": ["2020"],
+      "events": [
+        {
+          "name": "Co-founder",
+          "text": "A startup for remote shopping in vintage stores around the world via live streaming, *coming to market this spring*. Building from the ground up: we and are currently developing two iOS applications for customers and merchants and make heavy use of `aws` cloud for hosting the serverless backend."
+        }
+      ]
+    },
+
     "octokit": {
       "name": "Octokit — official clients for the GitHub API",
       "dates": ["2020"],

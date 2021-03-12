@@ -114,6 +114,28 @@ export default (t): ITimeline[] => [
     shortName: t('projects.shortName'),
     groups: [
       {
+        name: t('projects.grabvintage.name'),
+        link: 'https://github.com/grabvintage',
+        dates: [t('projects.grabvintage.dates.0')],
+        color: '#6b4ae5',
+        events: [
+          {
+            name: t('projects.grabvintage.events.0.name'),
+            text: t('projects.grabvintage.events.0.text'),
+          },
+        ],
+        images: {
+          icon: {
+            dark: '/images/grabvintage-icon.png',
+            light: '/images/grabvintage-icon.png',
+          },
+          logo: {
+            dark: '/images/grabvintage-logo-dark.png',
+            light: '/images/grabvintage-logo-light.png',
+          },
+        },
+      },
+      {
         name: t('projects.octokit.name'),
         link: 'https://github.com/octokit',
         dates: [t('projects.octokit.dates.0')],
